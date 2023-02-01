@@ -29,11 +29,13 @@ export default ChannelList;
 
 const styles = StyleSheet.create({
     "channel_title": {
-        "color": "hsl(274,100%,60%)",
-        "fontSize": 15,
+        "color": "#904027",
+        "fontSize": 20,
         "marginTop": 5,
-        "fontWeight": "400",
+        "fontWeight": "200",
         "marginHorizontal": 10,
-        "paddingHorizontal": 2
+        "paddingHorizontal": 2,
+        "fontFamily": "monospace",
+        "paddingBottom": "5px"
     }
 });
